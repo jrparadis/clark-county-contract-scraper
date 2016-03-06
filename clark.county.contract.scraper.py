@@ -2,10 +2,9 @@
 ## scrapes the clark county contracts website and writes to a text file.
 ##
 
-## import beautifulsoup for scraping, urllib2 for opening webpages, csv for writing to files
+## import beautifulsoup for scraping, urllib2 for opening webpages
 from bs4 import BeautifulSoup
 import urllib2
-import csv
 
 ## url of clark county contracts website
 r = urllib2.Request('http://www.clark.wa.gov/contracts-grid/')
