@@ -6,7 +6,13 @@
 from bs4 import BeautifulSoup
 import urllib2
 import ftplib
+import datetime
+import time
 
+now = datetime.datetime.now()
+nowmonth = now.month
+nowyear = now.year
+nowday = now.day
 
 
 
