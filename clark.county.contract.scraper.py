@@ -1,5 +1,5 @@
 ##
-## scrapes the clark county contracts website and writes to a text file.
+## scrapes the clark county contracts website and writes to a text file. basis of www.portlandvancouverwatchdog.com
 ##
 
 ## import beautifulsoup for scraping, urllib2 for opening webpages
